@@ -1,0 +1,31 @@
+﻿<html>
+<!doctype HTML>
+<head>
+    <title>Test Mvc Stored Proc</title>
+    <link href="~/Content/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/main.css" rel="stylesheet" media="screen" />
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h1>Test MVC Stored Proc</h1>
+        </div>
+        <div id="menucontainer">
+            <ul id="menu">
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li>@Html.ActionLink("About", "About", "Home")</li>
+            </ul>
+        </div>
+    </header>
+
+    <div id="main">
+        @RenderBody()
+    </div>
+
+    <footer></footer>
+
+    <script src="~/Scripts/jquery-2.0.3.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>
+
